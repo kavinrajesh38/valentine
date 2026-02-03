@@ -17,7 +17,7 @@ body {
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     
     /* These three lines fix the size issue */
-    width: 60%;           /* Takes up most of the width on small screens */
+    width: 75%;           /* Takes up most of the width on small screens */
     max-width: 400px;     /* Prevents it from getting too wide on desktop */
     margin: 0 auto;       /* Keeps it centered */
 }
