@@ -12,12 +12,23 @@ body {
 
 #main-card {
     background: white;
-    padding: 50px;
+    padding: 30px; /* Reduced padding for a tighter look */
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    
+    /* These three lines fix the size issue */
+    width: 85%;           /* Takes up most of the width on small screens */
+    max-width: 400px;     /* Prevents it from getting too wide on desktop */
+    margin: 0 auto;       /* Keeps it centered */
 }
 
-img { width: 200px; margin-bottom: 20px; }
+/* Also, make sure the image fits inside the smaller box */
+img { 
+    max-width: 100%;      /* Ensures image never spills out of the box */
+    height: auto; 
+    margin-bottom: 20px; 
+    border-radius: 15px;
+}
 
 h1 { color: #d63384; 
     font-family: 'Montserrat Alternates', sans-serif;
