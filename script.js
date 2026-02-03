@@ -11,6 +11,6 @@ function moveButton() {
 
 function celebrate() {
     document.getElementById('question').innerText = "yayay! see you on the 14th! 🥰";
-    document.getElementById('display-image').src = "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2I1ejR0ZzR0ZzR0ZzR0ZzR0ZzR0ZzR0ZzR0ZzR0ZzR0ZzR0ZzZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/UMon8TxS7TLY5vSuL1/giphy.gif";
+    document.getElementById('display-image').src = "https://peanuts.store/cdn/shop/files/PNTS-SNP_37_101791_MF.jpg?v=1725008854";
     document.querySelector('.buttons').style.display = 'none';
 }
